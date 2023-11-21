@@ -1,3 +1,106 @@
-h3{
-    font-style: italic;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background: #CCCCCC url("") repeat-x;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+}
+
+#menu ul {
+    border-left: 10px solid #999;
+    background: #999;
+    width: auto;
+    height: 60px;
+    padding: 10px;
+
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: white;
+    font: 18px, Helvetica, sans-serif;
+    text-decoration: none;
+    float: left;
+    padding: 18px 18px;
+}
+
+#menu ul li a:hover {
+    background: #6E6E6E;
+
+}
+
+a:link,
+a:visited {
+    color: #333;
+    background: #999;
+    padding: 5px;
+}
+
+section {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 0 auto;
+    background: #FF9900;
+    border: 2px solid #808080;
+}
+
+aside {
+    margin: 20px;
+    padding: 50px;
+    width: auto;
+    background: #FF9900;
+    border: 2px solid #808080;
+}
+
+
+section,
+p {
+
+    padding: 5px;
+}
+
+section,h3 {
+    padding-bottom: 10px;
+}
+ section, ul li{
+    margin: 40px;
+ }
+p {
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+section {
+    text-align: justifys;
+    padding: 20px;
+    margin: 20px;
+}
+
+article {
+    margin: 5px;
+    padding: 5px;
+}
+
+footer {
+    clear: both;
+    background: #FF9900;
+    padding: 10px;
+    border-top: 2px solid #ddd;
+    text-align: center;
+    color: #777;
 }
