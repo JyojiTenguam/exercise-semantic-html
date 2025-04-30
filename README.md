@@ -35,21 +35,21 @@ O objetivo foi praticar acessibilidade e estruturação semântica para melhorar
 
 1. Clone o repositório:
 
-```bash
-git clone https://github.com/JyojiTenguam/exercise-semantic-html.git
-```
+  ```bash
+  git clone https://github.com/JyojiTenguam/exercise-semantic-html.git
+  ```
 
 2. Acesse a pasta do projeto
 
-```bash
-cd exercise-semantic-html
-```
+  ```bash
+  cd exercise-semantic-html
+  ```
 
 3. Instale as dependências
 
-```bash
-npm install
-```
+  ```bash
+  npm install
+  ```
 
 ## 👤 Autor
 
